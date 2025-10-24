@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Who am I</title>
+    <style>
+        body {
+            background: linear-gradient(120deg, #fce4ec 0%, #f8bbd0 50%, #f48fb1 100%);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Microsoft JhengHei', '標楷體', 'DFKai-SB', 'Noto Sans TC', cursive, sans-serif;
+        }
+
+        .card {
+            background: rgba(255, 240, 245, 0.95);
+            padding: 48px 96px;
+            border-radius: 34px;
+            border: 3px solid #f06292;
+            box-shadow: 0 0 22px #f8bbd0aa;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 2s forwards ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .school {
+            font-size: 40px;
+            font-weight: 700;
+            color: #d81b60;
+            margin-bottom: 12px;
+            letter-spacing: 3px;
+            text-shadow: 0 2px 6px #f48fb1aa;
+        }
+
+        .major {
+            font-size: 26px;
+            color: #e91e63;
+            margin-bottom: 14px;
+            letter-spacing: 2px;
+            text-shadow: 0 1px 4px #f8bbd0aa;
+        }
+
+        .id,
+        .name {
+            font-size: 22px;
+            color: #ce93d8;
+            font-family: 'DFKai-SB', '標楷體', 'Microsoft JhengHei', serif;
+            margin-bottom: 10px;
+            letter-spacing: 2.5px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="school">台北商業大學</div>
+        <div class="major">五專資管科</div>
+        <div class="id">11256002</div>
+        <div class="name">張愷庭</div>
+    </div>
+</body>
+
+</html>
